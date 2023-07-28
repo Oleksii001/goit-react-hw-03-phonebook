@@ -1,0 +1,48 @@
+.contactsContainer {
+    margin-top: 20px;
+}
+
+.contactsList {
+    list-style: none;
+    padding: 0;
+}
+
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.contactName,
+.contactNumber {
+    font-weight: bold;
+}
+
+.contactWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    background-color: transparent;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+
+    &:hover {
+        color: white;
+        background: linear-gradient(0deg,
+                rgba(239, 92, 34, 0.901) 0%,
+                rgb(246, 95, 95) 100%);
+        border-radius: 50px;
+    }
+}

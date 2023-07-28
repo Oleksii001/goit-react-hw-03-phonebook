@@ -1,0 +1,19 @@
+.appContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg,
+            rgba(244, 252, 233, 0.394) 0%,
+            rgb(209, 206, 254) 100%);
+}
+
+.appTitle {
+    margin-bottom: 20px;
+}
+
+.contactsTitle {
+    margin-top: 30px;
+}
